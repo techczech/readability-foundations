@@ -1,3 +1,12 @@
+---
+name: "Readability Foundations"
+description: "Translates cognitive-load and reading-strategy research into usable guidance for readable, accessible documents."
+categories: [content-distribution, web-app, built-by-ai]
+updated: 2026-07-16
+deployments:
+  Appsite:
+    "Readability Foundations": https://readability.edutools.fyi/
+---
 # Foundations of Readable and Accessible Documents
 
 Evidence-based guidance for creating readable and accessible documents, based on cognitive load theory and reading strategy research.
