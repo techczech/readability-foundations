@@ -1,3 +1,4 @@
+import { CiteThisPage } from '../Citation';
 import React from 'react';
 import { NAV_GROUPS } from '../types';
 import { Logo } from './Logo';
@@ -121,7 +122,8 @@ export const Home: React.FC<HomeProps> = ({ onNavigate }) => {
       <footer className="bg-slate-900 text-slate-400 py-12 text-center">
         <p className="mb-2">Foundations of Readability</p>
         <p className="text-sm">Based on the work of Dominik Lukeš (CC BY)</p>
-      </footer>
+      <CiteThisPage />
+</footer>
     </div>
   );
 };
